@@ -1,0 +1,17 @@
+{
+  "name": "MicroPython for Seeed Studio XIAO ESP32C3",
+  "version": "1.19.1",
+  "funding_url": "https://github.com/sponsors/micropython",
+  "new_install_prompt_erase": false,
+  "new_install_improv_wait_time": 0,
+  "builds": [
+    {
+      "chipFamily": "ESP32-C3",
+      "parts": [
+        { "path": "bootloader.bin", "offset": 0 },
+        { "path": "micropython.bin", "offset": 65536 },
+        { "path": "partition-table.bin", "offset": 32768 }
+      ]
+    }
+  ]
+}
