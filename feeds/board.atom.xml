@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>MicroPython Extras - Board</title><link href="https://mp-extras.github.io/" rel="alternate"></link><link href="https://mp-extras.github.io/feeds/board.atom.xml" rel="self"></link><id>https://mp-extras.github.io/</id><updated>2025-07-05T10:30:00-07:00</updated><subtitle>Packages and modules for boards and peripherals</subtitle><entry><title>MicroPython for Surenoo Guition W5 Round</title><link href="https://mp-extras.github.io/micropython-for-surenoo-guition-w5-round.html" rel="alternate"></link><published>2025-07-05T10:30:00-07:00</published><updated>2025-07-05T10:30:00-07:00</updated><author><name>Mark Grosen</name></author><id>tag:mp-extras.github.io,2025-07-05:/micropython-for-surenoo-guition-w5-round.html</id><summary type="html">&lt;p&gt;Follow the steps below to install MicroPython on your Surenoo Guition W5 Round
+ESP32S3 board from your browser. You can review or rebuild the source code using
+the &lt;a href="https://github.com/mp-extras/SURENOO_GUITION_W5_ROUND"&gt;project repo&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Connect board to PC using USB-C cable&lt;/li&gt;
+&lt;li&gt;Press the Connect button below and follow prompts (use serial port USB JTAG …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;Follow the steps below to install MicroPython on your Surenoo Guition W5 Round
+ESP32S3 board from your browser. You can review or rebuild the source code using
+the &lt;a href="https://github.com/mp-extras/SURENOO_GUITION_W5_ROUND"&gt;project repo&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Connect board to PC using USB-C cable&lt;/li&gt;
+&lt;li&gt;Press the Connect button below and follow prompts (use serial port USB JTAG/serial debug unit)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;script type="module" src="https://unpkg.com/esp-web-tools@10/dist/web/install-button.js?module"&gt;&lt;/script&gt;
+&lt;p&gt;&lt;esp-web-install-button manifest="binaries/surenoo_guition_w5_round/manifest.json"&gt;
+    &lt;span slot="unsupported"&gt;Your browser does not support WebSerial&lt;/span&gt;
+    &lt;span slot="not-allowed"&gt;You are not allowed to use this on HTTP&lt;/span&gt;
+&lt;/esp-web-install-button&gt;&lt;/p&gt;
+&lt;p&gt;Web installation is thanks to the &lt;a href="https://esphome.github.io/esp-web-tools"&gt;ESP Web Tools&lt;/a&gt; project.&lt;/p&gt;</content><category term="Board"></category><category term="esp32"></category><category term="esp32-s3"></category><category term="surenoo"></category></entry><entry><title>MicroPython for Seeed XIAO ESP32C3</title><link href="https://mp-extras.github.io/micropython-for-seeed-xiao-esp32c3.html" rel="alternate"></link><published>2022-09-15T09:00:00-07:00</published><updated>2022-09-15T09:00:00-07:00</updated><author><name>Mark Grosen</name></author><id>tag:mp-extras.github.io,2022-09-15:/micropython-for-seeed-xiao-esp32c3.html</id><summary type="html">&lt;p&gt;Follow the steps below to install MicroPython on your Seeed Studio XIAO ESP32C3 board from your browser.
+You can review or rebuild the source code using the &lt;a href="https://github.com/mp-extras/SEEED_XIAO_ESP32C3"&gt;project repo&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Board Buttons" src="https://mp-extras.github.io/images/xiao_esp32c3_buttons.png" title="Buttons"&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Connect board to PC using USB-C cable&lt;/li&gt;
+&lt;li&gt;Depress the BOOT button and hold&lt;/li&gt;
+&lt;li&gt;Toggle RESET button&lt;/li&gt;
+&lt;li&gt;Release BOOT button&lt;/li&gt;
+&lt;li&gt;Press the …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;Follow the steps below to install MicroPython on your Seeed Studio XIAO ESP32C3 board from your browser.
+You can review or rebuild the source code using the &lt;a href="https://github.com/mp-extras/SEEED_XIAO_ESP32C3"&gt;project repo&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Board Buttons" src="https://mp-extras.github.io/images/xiao_esp32c3_buttons.png" title="Buttons"&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Connect board to PC using USB-C cable&lt;/li&gt;
+&lt;li&gt;Depress the BOOT button and hold&lt;/li&gt;
+&lt;li&gt;Toggle RESET button&lt;/li&gt;
+&lt;li&gt;Release BOOT button&lt;/li&gt;
+&lt;li&gt;Press the Connect button below and follow prompts (use serial port USB JTAG/serial debug unit)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;script type="module" src="https://unpkg.com/esp-web-tools@8.0.1/dist/web/install-button.js?module"&gt;&lt;/script&gt;
+&lt;p&gt;&lt;esp-web-install-button manifest="binaries/seeed_xiao_esp32c3/manifest.json"&gt;&lt;/esp-web-install-button&gt;&lt;/p&gt;
+&lt;p&gt;Web installation is thanks to the &lt;a href="https://esphome.github.io/esp-web-tools"&gt;ESP Web Tools&lt;/a&gt; project.&lt;/p&gt;</content><category term="Board"></category><category term="esp32"></category><category term="esp32-c3"></category><category term="seeed"></category></entry></feed>
