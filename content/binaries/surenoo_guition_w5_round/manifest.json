@@ -1,0 +1,15 @@
+{
+  "name": "MicroPython for SURENOO_GUITION_W5_ROUND",
+  "version": "v1.0.0",
+  "funding_url": "https://github.com/sponsors/micropython",
+  "new_install_prompt_erase": true,
+  "new_install_improv_wait_time": 0,
+  "builds": [
+    {
+      "chipFamily": "ESP32-S3",
+      "parts": [
+        { "path": "SURENOO_GUITION_W5_ROUND-20250705-v1.0.0.bin", "offset": 0 }
+      ]
+    }
+  ]
+}

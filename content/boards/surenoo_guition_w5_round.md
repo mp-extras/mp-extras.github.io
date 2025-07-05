@@ -11,7 +11,7 @@ the [project repo](https://github.com/mp-extras/SURENOO_GUITION_W5_ROUND).
 * Press the Connect button below and follow prompts (use serial port USB JTAG/serial debug unit)
 
 <script type="module" src="https://unpkg.com/esp-web-tools@10/dist/web/install-button.js?module"></script>
-<esp-web-install-button manifest="https://github.com/mp-extras/SURENOO_GUITION_W5_ROUND/releases/latest/download/manifest.json">
+<esp-web-install-button manifest="binaries/surenoo_guition_w5_round/manifest.json">
     <span slot="unsupported">Your browser does not support WebSerial</span>
     <span slot="not-allowed">You are not allowed to use this on HTTP</span>
 </esp-web-install-button>
